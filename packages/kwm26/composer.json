@@ -1,0 +1,33 @@
+{
+    "name": "fhooe/kwm26",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "homepage": "https://fh-ooe.at",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Selina Mayrhofer",
+            "email": "s2510456016@fhooe.at",
+            "homepage": "https://fh-ooe.at"
+        }
+    ],
+    "require": {
+        "bk2k/bootstrap-package": "^16.0",
+        "friendsoftypo3/content-blocks": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fhooe\\Kwm26\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "kwm26",
+            "Package": {
+                "providesPackages": {}
+            }
+        }
+    }
+}

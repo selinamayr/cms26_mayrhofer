@@ -1,0 +1,23 @@
+//page.config.contentObjectExceptionHandler = 0
+
+page {
+    includeCSS {
+        theme = EXT:kwm26/Resources/Public/Scss/Theme/theme.scss
+    }
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+
+    }
+
+    includeJSFooter {
+        kwm26_scripts = EXT:kwm26/Resources/Public/JavaScript/main.js
+    }
+}

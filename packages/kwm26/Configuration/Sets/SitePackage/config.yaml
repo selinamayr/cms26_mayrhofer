@@ -1,0 +1,4 @@
+name: fhooe/kwm26
+label: 'kwm26'
+dependencies:
+  - bootstrap-package/full
